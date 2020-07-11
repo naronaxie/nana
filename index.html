@@ -2,54 +2,80 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project: Portfolio Homepage</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
-            h1{
-                background-color:rgb(247, 193, 217);
-                color:rgb(16, 0, 245);
-                font-family:Bebas Neue;
-                font-size:4em;
-            }
-            h2{
-                font-size:2em;
-                background-color:black;
-                color:white;
-            }
-            h3{
-                font-size:1.5em;
-                color:rgb(255, 138, 171);
-            }
-            h6{
-                color:rgb(230, 55, 55);
-            }
-            body{
-                font-family:Montserrat;
-                font-size:14px;
-            }
-            
+        
         </style>
     </head>
     <body>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light style="background-color: #ffffff;">
+            <a class="navbar-brand" href="#Home">Nana--</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Work
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Roar Bikes</a>
+                    <a class="dropdown-item" href="#">Maynooth Furniture</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Multimedia
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Digital 3D</a>
+                      <a class="dropdown-item" href="#">2D</a>
+                      <a class="dropdown-item" href="#">Ceramics</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </nav> -->
         
-        <h1>Seven's World Blog My Changes Here</h1>
-
-        <h2>Contents</h2>
-        <ul>
-            <li> <a href="#motivation">My motivation for learning to code</a></li>
-            <li> <a href="#learned">What I have learned so far...
-            </a></li>
-        </ul>
-        
-        <h3 id="motivation">My motivation for learning to code</h3>
-        <h6>Posted on July 6, 2020</h6>
-        
-        <p>This blog post is intended to explain why I have decided to learn HTML/CSS and JavaScript. I began taking the Khan Academy courses before I began university, but became too busy to keep up with it. During college, I studied a diverse range of technologies and computer science was one of them. I learned a variety of languages and IEDs during my undergraduate career, but never had any practical application for it. Because of this, my skills went unused and I eventually lost parts of my knowledge. After graduating, I decided to change my career path and focus on UI/UX design. However, because of the COVID-19 pandemic, the limited job opportunities has caused me to expand my knowledge and skills of coding more. Hopefully by the end of this course I can apply my artistic skills with my coding knowledge to create fully functional web pages for clients.</p>
-        
-        <h3 id="learned">What I have learned so far...</h3>
-        <h6>Posted on July 6, 2020</h6>
-        <p>
-        As stated in my previous entry, I did study a couple semesters of computer science. I learned <em>Khan Academy's version of JavaScript, Processing's version of Java, and C# for Unity.</em> After getting a basis of how to use HTML/CSS, I plan to learn <strong>JQuery</strong> so I can make interactive websites. So far I have learned a great deal about logic and how to think about code. I also took a semester learning about computer graphics and learned more math concepts involving matrix multiplication, algorithms to draw basic shapes from scratch, and more. I also learned how to make video games in Unity using C#. Overall I would say that I have a good understanding of syntax and thinking at a basic level, but haven't had the experience to start a project from scratch and connect it to back end engines. Luckily I have great resources around me, so I will be able to accomplish it in time.
-        </p>
-        
+          <!-- ATTEMPT AT NAV -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="d-flex flex-grow-1">
+                <a class="navbar-brand" href="#Home">Nana--</a>
+                <!-- <a class="navbar-brand d-none d-lg-inline-block" href="#">
+                    Nana--
+                </a> -->
+                <!-- <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+                    <img src="//placehold.it/40?text=LOGO" alt="logo">
+                </a> -->
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item nav-active">Our Solution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">How We Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="js/jquery-3.5.1.min.js"> </script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
     </body>
 </html>
