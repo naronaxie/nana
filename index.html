@@ -2,13 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
         <title>Project: Portfolio Homepage</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
         <style>
-            
+            @media (min-width: 1200px) {
+                .container{
+                    max-width: 970px;
+                }
+            }
             .navbar{
                 position:fixed;
                 background-color: white;
@@ -88,18 +96,19 @@
     <body>
         <!-- Top Nav -->
         <!-- <nav class="container"> -->
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-light  style="background-color: #ffffff;">
+            
+            <nav id="navbar" class="navbar navbar-expand-md navbar-light  style="background-color: #ffffff;">
                 <div class="d-flex flex-grow-1">
-                    <a class="navbar-brand offset-md-4" href="#Home">NANA—</a>
-                    <div class="w-100 text-right">
+                    <a class="navbar-brand " href="#Home">NANA—</a>
+                    <div class="w-100 text-right mt-2">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
                 </div>
-                <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
                     <!-- <ul class="navbar-nav ml-auto flex-nowrap nav"> -->
-                    <ul class="navbar-nav offset-md-4 flex-nowrap nav"
+                    <ul class="navbar-nav ml-md-auto flex-nowrap nav"
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             WORK
@@ -126,8 +135,9 @@
                 </div>
             </nav>
         <!-- </nav> -->
-        <div>
-            <h1>TESTING</h1>
+        
+        <div class="container">
+            <h1> whatever is hidden</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
