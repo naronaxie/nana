@@ -17,6 +17,9 @@
                     max-width: 970px;
                 }
             }
+            .dropdown-menu{
+                left:auto;
+            }
             .navbar{
                 position:fixed;
                 background-color: white;
@@ -34,12 +37,8 @@
                 border-color:black;
             }
             #navbar a {
-                /* float: left; */
-                /* display: block; */
-                /* color: black; */
                 text-align: center;
                 padding: 15px;
-                /* text-decoration: none; */
             }
             .navbar .navbar-brand {
                 color: #000000;
@@ -89,82 +88,75 @@
             .navbar .navbar-link:hover {
                 color: #ff3366;
             }
-
-
+            .dropdown-menu{
+                position:relative;
+            }
+            .big-text{
+                font-size: xx-large;
+                font-weight: 300;
+                font-family: Montserrat;
+            }
+            .introduction{
+                margin-top: 12%;
+                align-items: center;
+            }
         </style>
     </head>
     <body>
         <!-- Top Nav -->
-        <!-- <nav class="container"> -->
-            
-            <nav id="navbar" class="navbar navbar-expand-md navbar-light  style="background-color: #ffffff;">
-                <div class="d-flex flex-grow-1">
-                    <a class="navbar-brand " href="#Home">NANA—</a>
-                    <div class="w-100 text-right mt-2">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
+        <nav id="navbar" class="navbar navbar-expand-md navbar-light  style="background-color: #ffffff;">
+            <div class="d-flex flex-grow-1 ">
+                <a class="navbar-brand " href="#Home">NANA—</a>
+                <div class="w-100 text-right mt-2">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-                <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
-                    <!-- <ul class="navbar-nav ml-auto flex-nowrap nav"> -->
-                    <ul class="navbar-nav ml-md-auto flex-nowrap nav"
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            WORK
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Roar Bikes</a>
-                            <a class="dropdown-item" href="#">Maynooth Furniture</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                MULTIMEDIA
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Digital 3D</a>
-                                <a class="dropdown-item" href="#">2D</a>
-                                <a class="dropdown-item" href="#">Ceramics</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
+            <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
+                <!-- <ul class="navbar-nav ml-auto flex-nowrap nav"> -->
+                <ul class="navbar-nav ml-md-auto flex-nowrap nav"
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        WORK
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Roar Bikes</a>
+                        <a class="dropdown-item" href="#">Maynooth Furniture</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MULTIMEDIA
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Digital 3D</a>
+                            <a class="dropdown-item" href="#">2D</a>
+                            <a class="dropdown-item" href="#">Ceramics</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <!-- </nav> -->
         
         <div class="container">
-            <h1> whatever is hidden</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumendanobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis
-            unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda
-                nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda nobis
-            unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda
-                nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda
-                nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda
-                nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda
-                nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil at vitae. Officia blanditiis nulla assumenda
-                nobis unde dolorem, cum quidem possimus dolorum ratione, ipsum, in facere dignissimos esse hic.</p>
+            <div class="row introduction">
+                <div class="col-sm-6">
+                    <p class="big-text introtext">
+                        Hi! I'm Nana Johnson.
+                    </p>
+                    <p class="big-text introtext">
+                        I am a(n) ___________.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="Assets/cutenanababy/cutenanababy.png" class="img-fluid">
+                </div>
+            </div>
         </div>
         <script src="js/jquery-3.5.1.min.js"> </script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
