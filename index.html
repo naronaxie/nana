@@ -97,36 +97,96 @@
                 font-family: Montserrat;
             }
             .introduction{
-                margin-top: 12%;
+                margin-top: 15%;
                 align-items: center;
+            }
+            .section-1 .heading-1{
+                margin-top: 15%;
+                padding: 5%;
+            }
+            .container-fluid.case{
+                font-weight: 300;
+                font-family: Montserrat;
+                background-color: #F5BEBE;
+            }
+            .button-1{
+                border-radius: 44px;
+                font-weight: 700;
+                color: #A0A0A0;
+                margin: 15px;
+            }
+            .button-2{
+                border-radius: 44px;
+                font-weight: 700;
+                color: white;
+                margin:15px;
+            }
+            .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+                background-color: #FD92B2 !important;
+                border-color: #A0A0A0;
+                
             }
         </style>
     </head>
-    <body>
-        <!-- Top Nav -->
-        <nav id="navbar" class="navbar navbar-expand-md navbar-light  style="background-color: #ffffff;">
+    <body> 
+        <div class="container">
+            <div class="row introduction">
+                <div class="col-sm-6">
+                    <p class="big-text introtext">
+                        Hi! I'm Nana Johnson.
+                    </p>
+                    <p class="big-text introtext">
+                        I am a(n) ___________.
+                    </p>
+                    <p>
+                        <button type="button" class="btn button-1 btn-outline-secondary">VIEW RÉSUMÉ</button> 
+                        <button type="button" class="btn button-2 btn-primary">LET'S TALK!</button>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="Assets/cutenanababy/cutenanababy.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="section-1">
+            <div class="container-fluid case text-center">
+                <div class="container"
+                    <div class="row">
+                        <div class=" col-lg-12">
+                            <h3 class="heading-1" id="casestudies">
+                                CASE STUDIES
+                            </h3>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-- keep nav at the bottom above js -->
+        <nav id="navbar" class="navbar navbar-expand-md navbar-light  style=" background-color: #ffffff;">
             <div class="d-flex flex-grow-1 ">
                 <a class="navbar-brand " href="#Home">NANA—</a>
                 <div class="w-100 text-right mt-2">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
             </div>
             <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
                 <!-- <ul class="navbar-nav ml-auto flex-nowrap nav"> -->
-                <ul class="navbar-nav ml-md-auto flex-nowrap nav"
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <ul class="navbar-nav ml-md-auto flex-nowrap nav" <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         WORK
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Roar Bikes</a>
                         <a class="dropdown-item" href="#">Maynooth Furniture</a>
-                        </div>
+                    </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             MULTIMEDIA
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -141,23 +201,6 @@
                 </ul>
             </div>
         </nav>
-        <!-- </nav> -->
-        
-        <div class="container">
-            <div class="row introduction">
-                <div class="col-sm-6">
-                    <p class="big-text introtext">
-                        Hi! I'm Nana Johnson.
-                    </p>
-                    <p class="big-text introtext">
-                        I am a(n) ___________.
-                    </p>
-                </div>
-                <div class="col-sm-6">
-                    <img src="Assets/cutenanababy/cutenanababy.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
         <script src="js/jquery-3.5.1.min.js"> </script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
         <script>
