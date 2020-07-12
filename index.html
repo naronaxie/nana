@@ -93,7 +93,7 @@
             }
             .big-text{
                 font-size: xx-large;
-                font-weight: 300;
+                font-weight: 100;
                 font-family: Montserrat;
             }
             .introduction{
@@ -110,21 +110,77 @@
                 background-color: #F5BEBE;
             }
             .button-1{
-                border-radius: 44px;
-                font-weight: 700;
                 color: #A0A0A0;
-                margin: 15px;
             }
             .button-2{
-                border-radius: 44px;
-                font-weight: 700;
+                border: 1px solid #707070;
+                box-shadow: 0px 3px 8px #00000045;
                 color: white;
-                margin:15px;
             }
-            .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+            .button-1, .button-2{
+                margin-top: 5%;
+                margin: 10px;
+                height: 45px;
+                width: 150px;
+                border-radius: 44px;
+                font-weight:700;
+            }
+            .btn-light, .btn-light:visited {
                 background-color: #FD92B2 !important;
                 border-color: #A0A0A0;
-                
+                hover-color
+            }
+            *{
+                /* margin: 0; */
+                /* padding: 0; */
+                box-sizing: border-box;
+            }
+            .course{
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0px 3px 20px #0000002c;
+                display: flex;
+                max-width: 90%;
+                overflow: hidden;
+                width: 700px;
+                position: absolute;
+                /* top: 50%; */
+                left: 50%;
+                transform: translate(-50%, 10%);
+                padding: 2.5%;
+                /* padding-right: 5%;
+                padding-left: 5%; */
+            }
+            .preview{
+                background:black;
+                padding-top: 10%;
+                padding-right: 15px;
+                padding-left: 15px;
+                /* padding-bottom: 75px; */
+                width:250px;
+                position: relative;
+            }
+            .info{
+                padding: 30px;
+                /* position: relative;
+                width: 100%; */
+            }
+            .info h3{
+                margin-bottom: 2rem !important;
+            }
+            /* .btn, .case-button{
+                padding: 100% !important;
+
+            } */
+            @media(max-width: 768px){
+                .course{
+                    flex-direction: column;
+                    width: 90%;
+                    /* margin: 10px !important; */
+                }
+                .preview{
+                    width: 100%;
+                }
             }
         </style>
     </head>
@@ -135,16 +191,16 @@
                     <p class="big-text introtext">
                         Hi! I'm Nana Johnson.
                     </p>
-                    <p class="big-text introtext">
+                    <p class="big-text introtext mb-5">
                         I am a(n) ___________.
                     </p>
                     <p>
                         <button type="button" class="btn button-1 btn-outline-secondary">VIEW RÉSUMÉ</button> 
-                        <button type="button" class="btn button-2 btn-primary">LET'S TALK!</button>
+                        <button type="button" class="btn button-2 btn-light">LET'S TALK!</button>
                     </p>
                 </div>
                 <div class="col-sm-6">
-                    <img src="Assets/cutenanababy/cutenanababy.png" class="img-fluid">
+                    <img src="Assets/Homepage/cutenanababy.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -160,6 +216,24 @@
                     </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="course section-1">
+                <div class="preview ">
+                    <span class="case-text">
+                        <img src="Assets/Homepage/Logo-Maynooth-Option3.svg" alt="MaynoothImg1" class="embed-responsive">
+                    </span>
+                </div>
+                <div class="info">
+                        <h3>Maynooth Furniture</h3>
+                        <p class="p-trunk">
+                            Your furniture needs to your door.
+                        </p>
+                        <!-- <button class="btn case-btn">Whole thing as button plz</button> -->
+                </div>
+            </div>
+        </div>
+
 
         <!-- keep nav at the bottom above js -->
         <nav id="navbar" class="navbar navbar-expand-md navbar-light  style=" background-color: #ffffff;">
@@ -214,6 +288,12 @@
                     }
                     prevScrollpos = currentScrollPos;
                 }
+        </script>
+        <script>
+            const trunc = 
+            document.querySelector('.p-trunc')
+            trunc.innerText = 
+            trunc.innerText.substring(0, 100) + '...'
         </script>
     </body>
 </html>
