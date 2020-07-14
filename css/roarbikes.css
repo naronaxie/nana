@@ -38,3 +38,26 @@ color: #ff3366;
     color: #ff3366;
     background-color: #f8f8f8;
 }
+
+
+
+/* this is where the parallax style is */
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1{
+    background-image: url("Assets/Roar Bikes/In-SituAngle-1@2x.png");
+    min-height: 100%
+}
+.bgimg-2{
+    background-color: #FFAB1529;
+    height: 1134px;
+}
+.bgimg-3{
+    background-color: grey;
+    height: 1728px;
+}
