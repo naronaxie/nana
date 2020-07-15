@@ -70,7 +70,8 @@ html {
 }
 
 .bgimg-3 {
-  background-color: #ffab1529;
+  background-image: url("../Assets/RoarBikes/bike-wireframe@2x.png");
+  background-color: #e4e4e4;
   min-height: 100%;
 }
 
