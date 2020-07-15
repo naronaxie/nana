@@ -131,3 +131,13 @@ hr {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Brandon Groteqsue";
+  src: url("https://use.typekit.net/tqn4qoq.css") format("embedded-opentype"); /* IE9 + later */
+  src: url("https://use.typekit.net/tqn4qoq.css") format("embedded-opentype"),
+    /* IE6 to IE8  */ url("https://use.typekit.net/tqn4qoq.css") format("woff"),
+    /* Newer browsers */ url("https://use.typekit.net/tqn4qoq.css")
+      format("truetype"),
+    /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+      url("https://use.typekit.net/tqn4qoq.css") format("svg"); /*IE og iOS earlier than version 5*/
+}
