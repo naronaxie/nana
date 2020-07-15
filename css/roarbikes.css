@@ -80,6 +80,10 @@ html {
   min-height: 100%;
   min-width: 550px;
 }
+.bgimg-5 {
+  background-color: #f5bebe;
+  min-height: 70%;
+}
 .caption {
   position: absolute;
   left: 50%;
@@ -112,7 +116,9 @@ h4 {
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1,
   .bgimg-2,
-  .bgimg-3 {
+  .bgimg-3,
+  .bgimg-4,
+  .bgimg-5 {
     background-attachment: scroll;
   }
 }
@@ -122,4 +128,105 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* next card at bottom */
+/* case studies */
+.casestudies {
+  margin-top: 30px;
+}
+.studies {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px #0000002c;
+  display: flex;
+  max-width: 90%;
+  overflow: hidden;
+  width: 750px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  padding: 3%;
+}
+.studiesimgbg {
+  background: black;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 250px;
+  position: relative;
+  align-items: center;
+  margin-left: 30px;
+}
+.studiesimgbgroar {
+  background: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 250px;
+  position: relative;
+  align-items: center;
+  margin-left: 30px;
+}
+.case-title {
+  padding: 30px;
+  padding-right: 0px;
+}
+.case-title h3 {
+  margin-bottom: 2rem;
+  font-family: Lora;
+}
+.p-trunc {
+  font-family: Brandon Grotesque;
+  font-size: large;
+}
+.view-case {
+  margin-left: 100px;
+}
+.btn.view-case {
+  background: black;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 44px;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn.view-case:hover {
+  color: #fd92b2;
+  transform: scale(1.1);
+}
+.row.studies {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-bottom: 30px;
+}
+@media (max-width: 990px) {
+  .case-title {
+    flex-direction: column;
+    width: 90%;
+  }
+  .case-img {
+    width: 100%;
+  }
+  .case-title p {
+    margin-bottom: 50px;
+  }
+  .studies {
+    padding: 0px;
+  }
+  .studiesimgbg {
+    width: 100%;
+    margin: 0px;
+  }
+  .studiesimgbgroar {
+    width: 100%;
+    margin: 0px;
+  }
 }
