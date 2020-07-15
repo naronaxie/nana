@@ -78,11 +78,11 @@ html {
 .bgimg-4 {
   background-image: url("../Assets/RoarBikes/hi-fimockup.png");
   min-height: 100%;
-  min-width: 550px;
 }
 .bgimg-5 {
   background-color: #f5bebe;
-  min-height: 70%;
+  min-height: 60%;
+  padding-bottom: 10%;
 }
 .caption {
   position: absolute;
