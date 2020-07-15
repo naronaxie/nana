@@ -123,3 +123,11 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/* attempt at making fonts show up on iOS devices */
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("https://use.typekit.net/tqn4qoq.css");
+  font-weight: normal;
+  font-style: normal;
+}
