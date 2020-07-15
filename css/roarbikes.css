@@ -99,7 +99,7 @@ h3,
 h4 {
   /* letter-spacing: 5px; */
   /* text-transform: uppercase; */
-  font-family: "Brandon Grotesque";
+  font-family: "Quicksand", sans-serif;
   color: #111;
   padding-bottom: 20px;
 }
@@ -122,22 +122,4 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* attempt at making fonts show up on iOS devices */
-@font-face {
-  font-family: "Brandon Grotesque";
-  src: url("https://use.typekit.net/tqn4qoq.css");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Brandon Groteqsue";
-  src: url("https://use.typekit.net/tqn4qoq.css") format("embedded-opentype"); /* IE9 + later */
-  src: url("https://use.typekit.net/tqn4qoq.css") format("embedded-opentype"),
-    /* IE6 to IE8  */ url("https://use.typekit.net/tqn4qoq.css") format("woff"),
-    /* Newer browsers */ url("https://use.typekit.net/tqn4qoq.css")
-      format("truetype"),
-    /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
-      url("https://use.typekit.net/tqn4qoq.css") format("svg"); /*IE og iOS earlier than version 5*/
 }
