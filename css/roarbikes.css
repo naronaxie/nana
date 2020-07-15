@@ -78,6 +78,7 @@ html {
 .bgimg-4 {
   background-image: url("../Assets/RoarBikes/hi-fimockup.png");
   min-height: 100%;
+  min-width: 550px;
 }
 .caption {
   position: absolute;
