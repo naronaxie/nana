@@ -80,8 +80,8 @@ h3 {
 }
 .container-fluid.intro {
   background-color: white;
-  padding: 5%;
-  padding-bottom: 15%;
+  padding-top: 5%;
+  /* padding-bottom: 5%; */
   padding-top: 10%;
 }
 .introimg {
