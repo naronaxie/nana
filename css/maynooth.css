@@ -84,8 +84,8 @@ html {
 }
 .bgimg-5 {
   background-image: url("../Assets/Maynooth/insituwebpage.png");
-  min-height: 100%;
-  /* max-width: 100% auto; */
+  min-height: 90%;
+  max-width: 100% auto;
 }
 .bgimg-6 {
   background-color: #f5bebe;
