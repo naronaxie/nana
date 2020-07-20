@@ -33,8 +33,8 @@
                             I am a(n) ____________.
                         </p>
                         <p>
-                            <button type="button" class="btn button-1 btn-outline-secondary" href="#">VIEW RÉSUMÉ</button> 
-                            <button type="button" class="btn button-2 btn-light" href="#">LET'S TALK!</button>
+                            <button id="resume" type="button" class="btn button-1 btn-outline-secondary" href="https://docs.google.com/document/d/1NJxBfE6VRmxJ3C1X2w_NjA2DODiVtOmsdnQLXKF5sxA/edit?usp=sharing">VIEW RÉSUMÉ</button> 
+                            <button id="mailbutton" type="button" class="btn button-2 btn-light" href="mailto:email@address.com">LET'S TALK!</button>
                         </p>
                     </div>
                     <div class="col-sm-6">
@@ -356,6 +356,17 @@
                     }
                     prevScrollpos = currentScrollPos;
                 }
+
+                $(document).ready(function () {
+                        $('#mailbutton').click(function (event) {
+                            window.location = "mailto:nanajohnsondesign@gmail.com";
+                        });
+                    });
+                $(document).ready(function () {
+                        $('#resume').click(function (event) {
+                            window.location = "https://docs.google.com/document/d/1NJxBfE6VRmxJ3C1X2w_NjA2DODiVtOmsdnQLXKF5sxA/edit?usp=sharing";
+                        });
+                    });
         </script>
 
         <!-- card text truncation js -->
