@@ -84,7 +84,7 @@ html {
 }
 .bgimg-5 {
   background-image: url("../Assets/Maynooth/insituwebpage.png");
-  min-height: 100%;
+  min-height: 100% auto;
   max-width: 100% auto;
 }
 .bgimg-6 {
