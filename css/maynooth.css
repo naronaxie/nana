@@ -65,6 +65,7 @@ html {
   background-image: url("../Assets/Maynooth/maynoothallmockup2@2x.png");
   /* min-width: 100%; */
   min-height: 100%;
+  max-width: 100% auto;
 }
 
 .bgimg-2 {
@@ -74,20 +75,23 @@ html {
 
 .bgimg-3 {
   background-color: #e0c6c7;
-  min-height: 100%;
+  /* min-height: 100%; */
 }
 .bgimg-4 {
   background-image: url("../Assets/Maynooth/mobileappinsitu.png");
   min-height: 70%;
+  max-width: 100% auto;
 }
 .bgimg-5 {
   background-image: url("../Assets/Maynooth/insituwebpage.png");
   min-height: 100%;
+  max-width: 100% auto;
 }
 .bgimg-6 {
   background-color: #f5bebe;
   min-height: 60%;
   padding-bottom: 10%;
+  max-width: 100% auto;
 }
 .caption {
   position: absolute;
@@ -125,7 +129,7 @@ h6 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-/* @media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
   .bgimg-1,
   .bgimg-2,
   .bgimg-3,
@@ -133,7 +137,7 @@ h6 {
   .bgimg-5 .bgimg-6 {
     background-attachment: scroll;
   }
-} */
+}
 
 hr {
   margin-top: 1rem;
