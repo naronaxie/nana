@@ -131,11 +131,38 @@
                 </div>
                     <!-- Grid row -->
                 <!-- <div class="row"> -->
+                    <!-- Trigger the Modal -->
+                    <!-- <img id="myImg" src="Assets/Homepage/Image 1@2x.png" alt="3D modeled capstone - The Astrologer's Study based on a mysterious astrologer who loves to collect antique findings." style="width:100%;max-width:300px">
+                    
+                    <!-- The Modal -->
+                    <!-- <div id="myModal" class="modal"> -->
+                    
+                        <!-- The Close Button -->
+                        <!-- <span class="close">&times;</span> -->
+                    
+                        <!-- Modal Content (The Image) -->
+                        <!-- <img class="modal-content" id="img01"> -->
+                    
+                        <!-- Modal Caption (Image Text) -->
+                        <!-- <div id="caption"></div> -->
+                    <!-- </div> -->
                 <!-- Grid row -->
                     <div class="gallery" id="gallery">
                         <!-- Grid column -->
                         <div class="mb-3 pics animation all 1">
-                            <img class="img-fluid" src="Assets/Homepage/Image 1@2x.png" alt="Card image cap">
+                            <img id="myImg" class="img-fluid" src="Assets/Homepage/Image 1@2x.png" alt="3D modeled capstone - The Astrologer's Study based on a mysterious astrologer who loves to collect antique findings." style="width:100%;max-width:300px">
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                
+                                    <!-- The Close Button -->
+                                    <span class="close">&times;</span>
+                                
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="img01">
+                                
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
+                                </div>
                         </div>
                         <!-- Grid column -->
                     
@@ -302,7 +329,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/nana/about.html">
                             ABOUT
                         </a>
                     </li>
@@ -356,6 +383,29 @@
                     }, 300);
                 });
             });
+        </script>
+        <!-- modal js script  -->
+        <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+        
+            // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                modal.style.display = "none";
+                }
         </script>
     </body>
 </html>

@@ -1,0 +1,253 @@
+/* navbar customizations */
+.navbar-brand {
+  font-family: Montserrat;
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+}
+.nav {
+  font-family: Montserrat;
+  font-weight: regular;
+  /* font-size: 1.5rem; */
+}
+#navbar a {
+  text-align: center;
+  padding: 14px;
+}
+.navbar {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+  margin: 1rem;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ff3366;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ff3366;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #ff3366;
+  background-color: #f8f8f8;
+}
+
+/* this is where the parallax style is */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Open Sans", sans-serif;
+  color: black;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("../Assets/Maynooth/maynoothallmockup2@2x.png");
+  /* min-width: 100%; */
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-color: #e4e4e4;
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-color: #e0c6c7;
+  min-height: 100%;
+}
+.bgimg-4 {
+  background-image: url("../Assets/Maynooth/mobileappinsitu.png");
+  min-height: 70%;
+}
+.bgimg-5 {
+  background-image: url("../Assets/Maynooth/insituwebpage.png");
+  min-height: 100%;
+}
+.bgimg-6 {
+  background-color: #f5bebe;
+  min-height: 60%;
+  padding-bottom: 10%;
+}
+.caption {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  /* top: 100%; */
+  width: 100%;
+  min-width: 400px;
+  text-align: center;
+  color: #000;
+  /* padding-bottom: 5%; */
+}
+.bgimg-1 .logo-1 {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+h3,
+h4,
+h6 {
+  /* letter-spacing: 5px; */
+  /* text-transform: uppercase; */
+  font-family: "Quicksand", sans-serif;
+  color: #111;
+  padding-bottom: 20px;
+}
+.row .col-12 {
+  padding: 3% !important;
+  /* padding-top: 20% !important; */
+}
+
+h6 {
+  font-size: small;
+  /* color: lightslategray; */
+  margin-top: 10%;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  .bgimg-4,
+  .bgimg-5 .bgimg-6 {
+    background-attachment: scroll;
+  }
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h3,
+h4 {
+  /* letter-spacing: 5px; */
+  /* text-transform: uppercase; */
+  font-family: "Quicksand", sans-serif;
+  color: #111;
+  padding-bottom: 20px;
+}
+
+/* next card at bottom */
+/* case studies */
+.casestudies {
+  margin-top: 30px;
+}
+.studies {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px #0000002c;
+  display: flex;
+  max-width: 90%;
+  overflow: hidden;
+  width: 750px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  padding: 3%;
+}
+.studiesimgbg {
+  background: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 250px;
+  position: relative;
+  align-items: center;
+  margin-left: 30px;
+}
+.studiesimgbgroar {
+  background: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 250px;
+  position: relative;
+  align-items: center;
+  margin-left: 30px;
+}
+.case-title {
+  padding: 30px;
+  padding-right: 0px;
+}
+.case-title h3 {
+  margin-bottom: 2rem;
+  font-family: Lora;
+}
+.p-trunc {
+  font-family: Brandon Grotesque;
+  font-size: large;
+}
+.view-case {
+  margin-left: 100px;
+}
+.btn.view-case {
+  background: black;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 44px;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn.view-case:hover {
+  color: #fd92b2;
+  transform: scale(1.1);
+}
+.row.studies {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-bottom: 30px;
+}
+@media (max-width: 990px) {
+  .case-title {
+    flex-direction: column;
+    width: 90%;
+  }
+  .case-img {
+    width: 100%;
+  }
+  .case-title p {
+    margin-bottom: 50px;
+  }
+  .studies {
+    padding: 0px;
+  }
+  .studiesimgbg {
+    width: 100%;
+    margin: 0px;
+  }
+  .studiesimgbgroar {
+    width: 100%;
+    margin: 0px;
+  }
+}
