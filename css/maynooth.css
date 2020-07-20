@@ -65,7 +65,7 @@ html {
   background-image: url("../Assets/Maynooth/maynoothallmockup2@2x.png");
   /* min-width: 100%; */
   min-height: 100%;
-  max-width: 100% auto;
+  /* max-width: 100% auto; */
 }
 
 .bgimg-2 {
@@ -85,7 +85,7 @@ html {
 .bgimg-5 {
   background-image: url("../Assets/Maynooth/insituwebpage.png");
   min-height: 100% auto;
-  max-width: 100% auto;
+  /* max-width: 100% auto; */
 }
 .bgimg-6 {
   background-color: #f5bebe;
