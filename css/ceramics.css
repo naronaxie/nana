@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+}
+
+/* navbar customizations */
+.navbar-brand {
+  font-family: Montserrat;
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+}
+.nav {
+  font-family: Montserrat;
+  font-weight: regular;
+  /* font-size: 1.5rem; */
+}
+#navbar a {
+  text-align: center;
+  padding: 14px;
+}
+.navbar {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+  margin: 1rem;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ff3366;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ff3366;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #ff3366;
+  background-color: #f8f8f8;
+}
+
+/* portfolio stuff */
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Quicksand" !important;
+}
+.w3-quarter img {
+  margin-bottom: -6px;
+  cursor: pointer;
+}
+.w3-quarter img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
