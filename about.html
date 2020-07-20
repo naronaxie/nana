@@ -104,8 +104,8 @@
                             I am a creative UI/UX designer who is passionate about design, emerging technologies, and stress-free user experiences. I worked in a collaborative design and production team within the jewelry design industry for 5 years where I mastered the iterative design process and usability testing. I studied Arts, Technology, and Emerging Communications in college, where I learned how to bridge the gap between my passion for traditional arts, customer service, design thinking, and technology through user experience design. 
                         </p>
                         <p>
-                            <button type="button" class="btn button-1 btn-outline-secondary" href="#">VIEW RÉSUMÉ</button>
-                            <button type="button" class="btn button-2 btn-light" href="#">LET'S TALK!</button>
+                            <button type="button" id="resume" class="btn button-1 btn-outline-secondary" href="#">VIEW RÉSUMÉ</button>
+                            <button type="button" id="mailbutton" class="btn button-2 btn-light" href="#">LET'S TALK!</button>
                         </p>
                     </div>
                     <div class="col-sm-4">
@@ -192,6 +192,17 @@
         }
         prevScrollpos = currentScrollPos;
       };
+      $(document).ready(function () {
+          $('#mailbutton').click(function (event) {
+            window.location = "mailto:nanajohnsondesign@gmail.com";
+          });
+        });
+        $(document).ready(function () {
+          $('#resume').click(function (event) {
+            window.location = "/Users/Nana/repos/nana/Assets/Homepage/NanaJohnsonResume.pdf";
+          });
+        });
     </script>
+    
   </body>
 </html>
