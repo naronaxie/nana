@@ -1,5 +1,5 @@
 body {
-  background-color: #f5bebe;
+  background-color: white;
 }
 
 /* text styles */
@@ -86,6 +86,7 @@ h3 {
 }
 .introimg {
   padding: 10%;
+  padding-bottom: 5%;
 }
 
 /* case studies */
@@ -95,11 +96,11 @@ h3 {
 .studies {
   background: white;
   border-radius: 10px;
-  box-shadow: 0px 3px 20px #0000002c;
+  box-shadow: 3px 3px 20px #00000045;
   display: flex;
-  max-width: 90%;
+  max-width: 100%;
   overflow: hidden;
-  width: 750px;
+  width: 100%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 10%);
@@ -147,17 +148,17 @@ h3 {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   color: white;
   font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 44px;
+  padding: 5px 25px;
+  border-radius: 100px;
   position: fixed;
   bottom: 15px;
   right: 30px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .btn.view-case:hover {
-  color: #fd92b2;
-  transform: scale(1.1);
+  /* color: #fd92b2; */
+  transform: scale(1.05);
 }
 .row.studies {
   margin-right: 0 !important;
